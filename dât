@@ -1,0 +1,12 @@
+CREATE TABLE `ttdiemdanh` (
+  `ID` int(12) NOT NULL,
+  `Name` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `Ngay` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `Gio` varchar(100) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+COMMIT;
+
+CREATE TABLE `labelface` (
+  `ID` int(12) NOT NULL,
+  `Name` varchar(200) CHARACTER SET utf16 COLLATE utf16_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
